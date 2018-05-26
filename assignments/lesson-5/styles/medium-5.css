@@ -1,0 +1,125 @@
+/* HEADER */
+
+@media only screen and (min-width: 37.5em) {
+
+    header img {
+        margin-left: -40px;
+        margin-top: 30px;
+        position: absolute;
+        width: 100px;
+        height: auto;
+    }
+
+    header h1 {
+        font-family: Georgia, serif;
+        padding-right: 200px;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    header h3 {
+        font-family: Georgia, serif;
+        color: #f4d41e;
+        text-align: center;
+        padding-right: 150px;
+    }
+
+    /* HEADER NAV */
+    nav button {
+        display: none;
+    }
+
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    /* WEATHER SUMMARY AND IMG */
+    #bluesky {
+        width: 250px;
+        height: auto;
+        float: left;
+        margin-left: 30px;
+
+    }
+
+    .weather-summary {
+        margin-right: 50px;
+        font-size: 20px;
+        text-align: right;
+
+    }
+
+    .weather-summary img {
+        width: 130px;
+        float: left;
+        margin-left: 250px;
+        margin-right: -100px;
+
+
+    }
+
+    .forecast {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    /* MAIN */
+    main {
+        max-width: 880px;
+        margin: 0 auto;
+    }
+
+    main figure img {
+        width: 450px;
+        height: auto;
+        margin-right: 7px;
+        margin-bottom: 15px;
+
+    }
+
+    main h2 {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    main article img {
+        width: 350px;
+        height: auto;
+        float: right;
+        margin: 7px;
+    }
+
+    main article {
+        padding-top: 40px;
+
+    }
+
+    /* TABLE */
+    section.forecast {
+        display: block;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        border: 5px solid #606060;
+
+    }
+
+    th {
+        border-bottom: 1px solid #606060;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+
+
+}

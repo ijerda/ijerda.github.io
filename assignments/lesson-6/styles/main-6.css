@@ -1,0 +1,197 @@
+/* BODY */
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+
+}
+
+/* HEADER */
+
+header {
+    padding-top: 10px;
+    padding-left: 1em;
+    background-color: #14147b;
+}
+
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    padding-right: 60px;
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+header h3 {
+    font-family: Georgia, serif;
+    color: #f4d41e;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
+header img {
+    width: 100px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+/* HEADER NAV */
+
+.hamburger {
+    position: absolute;
+    top: 4.0rem;
+    right: 1.25rem;
+    background-color: #f4d41e;
+    border: 4px solid #323297;
+}
+
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    margin-top: -20px;
+    padding-bottom: 40px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation.responsive {
+    position: relative;
+}
+
+.navigation.responsive li {
+    background-color: #14147b;
+    display: block;
+    width: 100%;
+
+}
+
+.navigation.responsive li a {
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.navigation.responsive li.active a {
+    color: #ff890b;
+    background-color: #323297;
+}
+
+.navigation.responsive li a:hover {
+    color: #f4d41e;
+    background-color: #323297;
+}
+
+
+
+/* MAIN */
+
+main {
+    padding: 25px;
+    background: #fff;
+    color: #606060;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+main h2 {
+    color: #ff890b;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+}
+
+main h3 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
+main figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+
+.weather-summary img {
+    width: 100px;
+    float: right;
+    margin-right: 120px;
+}
+
+
+main figure {
+    margin: 0;
+    height: auto;
+
+}
+
+main article {
+    padding-top: 40px;
+}
+
+
+main article img {
+    width: 100%;
+    height: auto;
+
+    margin-right: 7px;
+}
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    font-family: Georgia, serif;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: .9rem;
+    background-color: #14147b;
+
+
+}
+
+/* MISC CLASS SELECTORS */
+
+.forecast {
+    display: none;
+}

@@ -1,0 +1,173 @@
+/* HEADER */
+
+@media only screen and (min-width: 37.5em) {
+
+
+    header img {
+        width: 130px;
+        height: auto;
+        float: none;
+        display: inline;
+    }
+
+    header h1 {
+        font-family: 'Luckiest Guy', cursive;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0;
+        display: inline;
+    }
+
+
+
+    header h3 {
+        font-family: Georgia, serif;
+        color: #f4d41e;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+    }
+
+    /* HEADER NAV */
+    .navigation {
+        text-align: center;
+        background-color: #14147b;
+        margin-top: -20px;
+        padding-bottom: 20px;
+    }
+
+
+    .navigation li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+    .navigation li a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: .75rem;
+        text-decoration: none;
+        font-size: .9rem;
+        font-weight: bold;
+    }
+
+    .navigation li.active a {
+        color: #ff890b;
+        background-color: #323297;
+    }
+
+    .navigation li a:hover {
+        color: #f4d41e;
+        background-color: #323297;
+    }
+
+
+    .hamburger {
+        display: none;
+
+    }
+
+    /* WEATHER SUMMARY AND IMG */
+    #bluesky {
+        width: 250px;
+        height: auto;
+        float: left;
+        margin-left: 30px;
+
+    }
+
+    .weather-summary {
+        margin-right: 50px;
+        font-size: 20px;
+        text-align: right;
+
+    }
+
+    .weather-summary img {
+        width: 130px;
+        float: left;
+        margin-left: 250px;
+        margin-right: -100px;
+
+
+    }
+
+    .forecast {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    /* MAIN */
+    main {
+        max-width: 880px;
+        margin: 0 auto;
+    }
+
+    main figure img {
+        width: 450px;
+        height: auto;
+        margin-right: 7px;
+        margin-bottom: 15px;
+
+    }
+
+    main h2 {
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Luckiest Guy', cursive;
+        font-weight: normal;
+    }
+
+    main h3 {
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    main article img {
+        width: 350px;
+        height: auto;
+        float: right;
+        margin: 7px;
+    }
+
+    main article {
+        padding-top: 40px;
+
+    }
+
+    /* TABLE */
+    section.forecast {
+        display: block;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        border: 5px solid #606060;
+
+    }
+
+    th {
+        border-bottom: 1px solid #606060;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+
+}

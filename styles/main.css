@@ -21,7 +21,7 @@ h2 {
     font-size: 1.5rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 header, main, footer {
@@ -36,13 +36,41 @@ header, footer, footer a {
     color: whitesmoke;
 }
 
+header {
+    
+}
+
 header img {
     width: 20%;
     height: auto;
     float: right;
 }
 
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:active {
+    color: #ffffff;
+    background-color: deeppink;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: deeppink;
+    padding: 5px;
+}
+
+li {
+    font-weight: bold;
+}
+
+
+
 footer {
     font-size: 0.7rem;
-    padding-top: 23px;
+    padding-top: 10px;
+    margin: 0 auto;
 }

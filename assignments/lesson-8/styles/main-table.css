@@ -1,0 +1,138 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+h1 {
+    font-size: 4.0rem;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: -50px;
+}
+
+header,
+main,
+footer {
+    margin: 1.25rem auto;
+    padding: .5rem width: 600px;
+    box-sizing: border-box;
+    max-width: 800px;
+}
+
+header,
+header a {
+    text-align: center;
+    background-color: deeppink;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover,
+footer a:hover {
+    color: dimgray;
+}
+
+footer,
+footer a {
+    text-align: center;
+    background-color: deeppink;
+    color: whitesmoke;
+}
+
+
+footer {
+    font-size: 0.7rem;
+    padding: 10px 0px;
+    margin: 40px auto;
+}
+
+table {
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 10px #606060;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+thead th {
+    color: #000;
+    font-size: 28px;
+    background-color: #7fb9c2;
+    padding: 10px 50px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+tbody th {
+    font-size: 16px;
+    background-color: #628ca6;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+tdbody tr,
+td,
+th {
+    border: .01em solid #fff;
+    padding: 10px 20px;
+}
+
+
+tbody tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    justify-content: center;
+}
+
+tbody td {
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+table tbodytr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+.november :nth-child(3) {
+    background-color: #628ca6;
+    color: #fff;
+}
+
+table tbody tr:nth-child(6) {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0px;
+    justify-content: center;
+}
+
+tfoot tr {
+    font-size: 12px;
+    background-color: #7fb9c2;
+    text-align: center;
+    padding: 100px;
+}

@@ -109,7 +109,7 @@ tbody td {
 
 }
 
-table tbodytr:nth-child(even) {
+table tbody tr:nth-child(even) {
     background-color: #e7f0ed;
 }
 

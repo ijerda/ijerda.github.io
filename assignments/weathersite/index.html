@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home | FGS Weather Center</title>
+    <meta name="description" content="FSG Weather Center - Home">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+
+<body>
+    <script src="scripts/hamburger.js"></script>
+ <header>
+        <div class="top-header">
+            <img src="images/logo.png" alt="Site Logo - an Orange Umbrella">
+            <h1>FSG Weather Center</h1>
+        </div>
+        <h3>For Accurate Weather Information in the Tri-City Area</h3>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+        <nav>
+        <ul class="navigation">
+            <li><a href="/assignments/weathersite/index.html">Home</a></li>
+            <li><a href="/assignments/weathersite/franklin.html">Franklin</a></li>
+            <li><a href="/assignments/weathersite/springfield.html">Springfield</a></li>
+            <li><a href="/assignments/weathersite/greenville.html">Greenville</a></li>
+            <li><a href="/assignments/weathersite/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <article class="homepage1">
+            <img src="images/indexmainimg.jpg" alt="beautiful sunset on a lake" id="topimg-index">
+            <h1>Welcome to FSG Weather Center</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et erat tristique, sollicitudin dolor et, aliquam mauris. Sed interdum volutpat scelerisque. Fusce sit amet enim ut enim cursus pulvinar nec at massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris interdum lectus nec lectus vestibulum luctus. Duis malesuada, purus eu elementum finibus, purus ligula ultrices nunc, a iaculis ligula ligula vel quam. Sed commodo, tortor sollicitudin commodo tincidunt, mi nibh bibendum diam, nec tempor orci risus non tortor. Duis cursus vitae nibh ac mattis. Sed at rhoncus felis. Nunc ac nulla vel nisl rutrum congue. Suspendisse posuere dui sed sodales fringilla. Etiam pharetra, sapien ut lacinia varius, est leo aliquet eros, eget aliquet urna sapien eget sapien. Cras viverra porttitor justo, a pharetra erat hendrerit vitae. Proin et enim ut odio vehicula aliquam et id sem. Proin egestas suscipit felis sit amet vestibulum. Maecenas volutpat imperdiet sollicitudin. Nulla feugiat mauris ac elit porttitor dapibus. Fusce nec enim neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ac facilisis lorem. Cras felis nisi, tincidunt id interdum ut, posuere bibendum magna. Nullam lacinia fringilla eros, vitae luctus ligula. Nunc luctus nunc et posuere consequat. Suspendisse dictum non est sed facilisis.
+            </p>
+        </article>
+        <div class="towns">
+            <div class="towns-f">
+                <article>
+                    <figure>
+                        <img src="images/boat.jpg" alt="Boat on a lake during sunset">
+                    </figure>
+                    <h1>Franklin</h1>
+                    <p>Town Motto: <span id="fTown-motto"></span></p>
+                    <p>Founded: <span id="fTown-found"></span></p>
+                    <p>Population: <span id="fTown-pop"></span></p>
+                    <p>Average Rainfall: <span id="fTown-rain"></span>"</p>
+
+                </article>
+            </div>
+
+            <div class="towns-s">
+                <article>
+                    <figure>
+                        <img src="images/fogintrees.jpg" alt="Fog in trees">
+                    </figure>
+                    <h1>Springfield</h1>
+                    <p>Town Motto: <span id="sTown-motto"></span></p>
+                    <p>Founded: <span id="sTown-found"></span></p>
+                    <p>Population: <span id="sTown-pop"></span></p>
+                    <p>Average Rainfall: <span id="sTown-rain"></span>"</p>
+                </article>
+            </div>
+
+            <div class="towns-g">
+                <article>
+                    <figure>
+                        <img src="images/sunset.jpg" alt="Sunset in the mountains">
+                    </figure>
+                    <h1>Greenville</h1>
+                    <p>Town Motto: <span id="gTown-motto"></span></p>
+                    <p>Founded: <span id="gTown-found"></span></p>
+                    <p>Population: <span id="gTown-pop"></span></p>
+                    <p>Average Rainfall: <span id="gTown-rain"></span>"</p>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <address>
+            <p>FSG Weather Center</p> 
+            <p>999.999.9999</p> 
+            <p>123 Main St. Anytown, US 99999</p> 
+            <p>Google Map</p>
+        </address>
+        <p>&copy;2018 | All Rights Reserved | Home | FSG Weather Center | <span id="currentdate"></span>
+        </p>
+
+        <p>Current data courtesy of <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></p>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/towninfo.js"></script>
+</body>
+
+</html>

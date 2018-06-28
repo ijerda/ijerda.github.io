@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Springfield | FGS Weather Center</title>
+    <meta name="description" content="FSG Weather Center - Springfield">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+</head>
+
+<body>
+    <script src="scripts/hamburger.js"></script>
+    <header>
+        <div class="top-header">
+            <img src="images/logo.png" alt="Site Logo - an Orange Umbrella">
+            <h1>FSG Weather Center</h1>
+        </div>
+        <h3>For Accurate Weather Information in the Tri-City Area</h3>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="/assignments/weathersite/index.html">Home</a></li>
+            <li><a href="/assignments/weathersite/franklin.html">Franklin</a></li>
+            <li><a href="/assignments/weathersite/springfield.html">Springfield</a></li>
+            <li><a href="/assignments/weathersite/greenville.html">Greenville</a></li>
+            <li><a href="/assignments/weathersite/stormcenter.html">Storm Center</a></li>
+            <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Franklin</h2>
+
+        <div class="weather-sum">
+            <figure>
+                <img id="bluesky" src="images/bluesky-whiteclouds.jpg" alt="Picture of White Clouds against a Blue Sky">
+            </figure>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <figure>
+                        <img src="" id="weatherimage">
+                    </figure>
+                <div class="currentCond">
+                    <span id="currentCond"></span>
+                </div>
+                <div class="highlow">
+                    <p>Current Temp: <strong><span id="currenttemp"></span> &deg; </strong></p>
+                </div>
+                <div class="conditions">
+                    <p>Humidity: <span id="humidity"></span>%</p>
+                    <p>Precipitation: <span id="clouds"></span>%</p>
+                    <p>Wind Speed: <strong><span id="windspeed"></span> mph</strong></p>
+                </div>
+            </section>
+        </div>
+
+        <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article class="franklin-article">
+            <h3>Franklin Breaks Record</h3>
+            <img src="images/umbrella.jpg" alt="Umbrella with Raindrops on it" id="img-article-franklin">
+            <p class="town-article">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et erat tristique, sollicitudin dolor et, aliquam mauris. Sed interdum volutpat scelerisque. Fusce sit amet enim ut enim cursus pulvinar nec at massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris interdum lectus nec lectus vestibulum luctus. Duis malesuada, purus eu elementum finibus, purus ligula ultrices nunc, a iaculis ligula ligula vel quam. Sed commodo, tortor sollicitudin commodo tincidunt, mi nibh bibendum diam, nec tempor orci risus non tortor. Duis cursus vitae nibh ac mattis. Sed at rhoncus felis. Nunc ac nulla vel nisl rutrum congue. Suspendisse posuere dui sed sodales fringilla. Etiam pharetra, sapien ut lacinia varius, est leo aliquet eros, eget aliquet urna sapien eget sapien. Cras viverra porttitor justo, a pharetra erat hendrerit vitae. Proin et enim ut odio vehicula aliquam et id sem. Proin egestas suscipit felis sit amet vestibulum. Maecenas volutpat imperdiet sollicitudin. Nulla feugiat mauris ac elit porttitor dapibus. Fusce nec enim neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla ac facilisis lorem. Cras felis nisi, tincidunt id interdum ut, posuere bibendum magna. Nullam lacinia fringilla eros, vitae luctus ligula. Nunc luctus nunc et posuere consequat. Suspendisse dictum non est sed facilisis. Aenean rhoncus, metus sit amet elementum ultrices, arcu nisi vestibulum magna, ac dignissim est orci a odio. Nulla quis quam odio. Sed eu ornare nulla. Praesent eget tincidunt sem, id vulputate dui. Phasellus finibus erat quis lectus sollicitudin dignissim ut euismod ligula. Sed sagittis vehicula iaculis. Duis augue justo, dignissim non augue in, auctor pulvinar nisi. Vivamus aliquam interdum volutpat. Ut dignissim dolor consectetur lacus lacinia imperdiet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque gravida tristique purus. Curabitur eros dolor, ultricies a tempus ac, molestie ac est. Pellentesque iaculis lectus id mi ullamcorper tincidunt. Proin vel orci ut dui pretium rutrum. Quisque elementum est vel est mattis ornare. Nulla fermentum turpis nec quam feugiat fringilla vitae non dolor. Quisque et nisi consequat erat placerat laoreet et ut eros. Phasellus sed sollicitudin justo. Aliquam tempus leo lacus, eget vulputate lacus faucibus venenatis. Phasellus nec bibendum tortor. Mauris suscipit lacus fringilla quam vestibulum, sit amet rhoncus est pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            </p>
+        </article>
+
+    </main>
+
+    <footer>
+
+        <address><p>FSG Weather Center</p> 
+                <p>999.999.9999</p> 
+                <p>123 Main St. Anytown, US 99999</p> 
+                <p>Google Map</p>
+        </address>
+        <p>&copy;2018 | All Rights Reserved | Springfield | FSG Weather Center | <span id="currentdate"></span>
+        </p>
+        
+        <p>Current data courtesy of <a href="https://openweathermap.org" target="_blank">OpenWeatherMap.org</a></p>
+
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>

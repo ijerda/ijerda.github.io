@@ -1,0 +1,113 @@
+@media only screen and (min-width: 64em) {
+
+
+    /*-------------- HEADER --------------*/
+    header img {
+        max-width: 100%;
+        padding-bottom: 40px;
+        padding-right: 10px;
+    }
+
+    header h1 {
+        font-family: 'Luckiest Guy', cursive;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    .top-header {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    header h3 {
+        font-family: Georgia, serif;
+        color: #f4d41e;
+        text-align: center;
+        padding-right: 10px;
+        margin-top: -10px;
+    }
+
+    /*-------------- MAIN/BODY --------------*/
+   
+    #topimg-index {
+    margin-top: -40px;
+    width: 100%;
+    height: auto;
+}
+
+    #currentdate {
+        color: #ffffff;
+    }
+    
+    .towns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding-bottom: 10px;
+    }
+    
+        .towns-f img, 
+    .towns-g  img {
+        width: 100%;
+        float: right;
+    }
+    
+    .towns-s img {
+        width: 100%;
+        display: flex;
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .towns-f p,
+    .towns-f h1,
+    .towns-s p,
+    .towns-s h1,
+    .towns-g p,
+    .towns-g h1 {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .towns h1 {
+        margin-top: 130px;
+    }
+
+    /*-------------- GALLERY --------------*/
+    .grid-gallery {
+        grid-template-columns: 2fr 3fr 2fr;
+        grid-gap: 20px;
+        margin-top: 0px;
+    }
+
+    .grid-gallery figure:hover {
+        box-shadow: 5px 5px 5px #606060;
+    }
+
+    .grid-gallery img:hover {
+        box-shadow: 5px 5px 5px #606060;
+    }
+
+    .grid-gallery figcaption:hover {
+        box-shadow: 5px 5px 5px #606060;
+    }
+
+    /*-------------- FORM --------------*/
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+    .thanks h1 {
+        color: #ff560b;
+        font-size: 150px;
+        margin: 0px;
+    }
+
+}

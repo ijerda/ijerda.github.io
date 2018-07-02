@@ -48,7 +48,8 @@
     }
     
     #springfield {
-        display: block;
+        display: flex;
+        flex-flow: column;
     }
     
     .alltownboxes {

@@ -333,7 +333,7 @@ address p {
 
 form fieldset {
     margin: 1rem 0;
-    border: 15px solid #14147b;
+    border: 3px solid #606060;
     border-radius: 5px;
     padding: .5rem 2%;
     font-size: 35px;

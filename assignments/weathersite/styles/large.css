@@ -47,48 +47,38 @@
         color: #ffffff;
     }
     
-    .towns {
+    #springfield {
+        display: block;
+    }
+    
+    .alltownboxes {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
         padding-bottom: 10px;
-         
     }
     
-    .towns-f,
-    .towns-g,
-    .towns-s {
-        height: 400px;
+    .townboxes {
+        display: block;
+        
     }
     
-    .towns-f img, 
-    .towns-g  img {
-        width: 100%;
-        float: right;
-    }
-    
-    .towns-s img {
+    .townboxes img {
+        display: block;
         width: 100%;
         height: auto;
-        display: flex;
-        float: left;
-        margin-right: 10px;
     }
     
-    .towns-f p,
-    .towns-f h1,
-    .towns-s p,
-    .towns-s h1,
-    .towns-g p,
-    .towns-g h1 {
-        text-align: center;
-        font-weight: bold;
-    }
-    
-    .towns h1 {
-        margin-top: 130px;
-    }
+    .townboxes .box .rightcol {
+        padding: 0px;
 
+    }
+    
+    .townboxes .box{
+        display: block;
+    }
+    
+    
     /*-------------- GALLERY --------------*/
     .grid-gallery {
         grid-template-columns: 2fr 3fr 2fr;

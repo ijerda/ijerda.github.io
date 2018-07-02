@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Thanks | FGS Weather Center</title>
-    <meta name="description" content="FSG Weather Center - Thank You">
+    <meta name="description" content="FSG Weather Center - Thank You Page">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -16,21 +16,21 @@
 <body>
     <header>
         <div class="top-header">
-            <img src="images/logo.png" alt="Site Logo - an Orange Umbrella">
+            <a href="index.html"><img src="images/logo.png" alt="Site Logo - an Orange Umbrella"></a>
             <h1>FSG Weather Center</h1>
         </div>
         <h3>For Accurate Weather Information in the Tri-City Area</h3>
         <button class="hamburger" onclick="toggleHam()">&#9776;</button>
     </header>
 
-        <nav>
-        <ul class="navigation">
-            <li><a href="/assignments/weathersite/index.html">Home</a></li>
-            <li><a href="/assignments/weathersite/franklin.html">Franklin</a></li>
-            <li><a href="/assignments/weathersite/springfield.html">Springfield</a></li>
-            <li><a href="/assignments/weathersite/greenville.html">Greenville</a></li>
-            <li><a href="/assignments/weathersite/stormcenter.html">Storm Center</a></li>
-            <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>
+    <nav>
+        <ul class="navigation" id="mainmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
 
@@ -42,7 +42,8 @@
 
     <footer>
 
-        <address><p>FSG Weather Center</p> 
+        <address>
+                <p id="footertitle">FSG Weather Center</p>  
                 <p>999.999.9999</p> 
                 <p>123 Main St. Anytown, US 99999</p> 
                 <p>Google Map</p>

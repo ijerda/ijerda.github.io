@@ -1,11 +1,12 @@
 @media only screen and (min-width: 64em) {
-
+    
 
     /*-------------- HEADER --------------*/
     header img {
         max-width: 100%;
         padding-bottom: 40px;
         padding-right: 10px;
+        margin-top: 20px;
     }
 
     header h1 {
@@ -51,9 +52,16 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
         padding-bottom: 10px;
+         
     }
     
-        .towns-f img, 
+    .towns-f,
+    .towns-g,
+    .towns-s {
+        height: 400px;
+    }
+    
+    .towns-f img, 
     .towns-g  img {
         width: 100%;
         float: right;
@@ -61,6 +69,7 @@
     
     .towns-s img {
         width: 100%;
+        height: auto;
         display: flex;
         float: left;
         margin-right: 10px;
@@ -87,17 +96,7 @@
         margin-top: 0px;
     }
 
-    .grid-gallery figure:hover {
-        box-shadow: 5px 5px 5px #606060;
-    }
-
-    .grid-gallery img:hover {
-        box-shadow: 5px 5px 5px #606060;
-    }
-
-    .grid-gallery figcaption:hover {
-        box-shadow: 5px 5px 5px #606060;
-    }
+    
 
     /*-------------- FORM --------------*/
     form label.sbs {

@@ -25,18 +25,14 @@ footer {
 
 header {
     padding-top: 10px;
-    padding-left: 1em;
     background-color: #14147b;
 }
 
 header h1 {
     font-family: 'Luckiest Guy', cursive;
-    padding-right: 80px;
-    padding-top: 20px;
     color: #ffffff;
     text-align: center;
     font-weight: normal;
-    margin-left: -14px;
 }
 
 header h3 {
@@ -44,14 +40,25 @@ header h3 {
     color: #f4d41e;
     text-align: center;
     padding-bottom: 20px;
-    padding-right: 20px;
 }
 
-.top-header {
-    display: flex;
-    align-content: center;
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header img {
+        width: 100px;
+        height: auto;
+        display: flex;
+
+    }
+
+/*.top-header {
+    display: block;
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-left: -15px;
 }
 
 
@@ -59,6 +66,13 @@ header img {
     width: 100px;
     height: 100px;
     margin-top: 40px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*----------------- HEADER NAV -----------------*/
@@ -106,12 +120,12 @@ header img {
 }
 
 .navigation.responsive li.active a {
-    color: #ff890b;
+    color: #f4d41e;
     background-color: #323297;
 }
 
 .navigation.responsive li a:hover {
-    color: #f4d41e;
+    color: #ff890b;
     background-color: #323297;
 }
 
@@ -146,6 +160,12 @@ main figure img {
 
 }
 
+#currentCond-f,
+#currentCond-s,
+#currentCond-g {
+    text-transform: capitalize;
+}
+
 .weather-summary img {
     width: 100px;
     display: flex;
@@ -157,6 +177,10 @@ main figure {
     margin: 0;
     height: auto;
 
+}
+
+#bluesky {
+    box-shadow: 2px 2px 2px #606060;
 }
 
 main article {
@@ -176,6 +200,7 @@ main article {
 #img-article-franklin {
     width: 100%;
     height: auto;
+    box-shadow: 2px 2px 2px #606060;
 }
 
 article h1 {
@@ -185,23 +210,19 @@ article h1 {
     color: #ff890b;
 }
 
-.towns-f {
-    border: 5px solid #14147b;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.towns-s {
-    border: 5px solid #14147b;
-    padding: 10px;
-    margin-top: 10px;
-}
-
+.towns-f,
+.towns-s,
 .towns-g {
-    border: 5px solid #14147b;
-    padding: 10px;
+    border: 3px solid #606060;
     margin-top: 10px;
+    box-shadow: 2px 2px 2px #606060;
+    color: #606060;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 .towns-f img,
 .towns-s img,
@@ -213,6 +234,7 @@ article h1 {
     margin-top: -90px;
     width: 100%;
     height: auto;
+    box-shadow: 2px 2px 2px #606060;
 }
 
 .towns-f p,
@@ -224,6 +246,12 @@ article h1 {
         text-align: center;
         font-weight: bold;
     }
+
+.towns-f h1,
+.towns-s h1,
+.towns-g h1 {
+    letter-spacing: 1px;
+}
 
 span {
         font-weight: normal;
@@ -241,7 +269,7 @@ footer {
     text-decoration: none;
     font-size: .9rem;
     background-color: #14147b;
-
+    border-top: 3px solid #606060;
 
 }
 
@@ -257,6 +285,20 @@ footer a:active {
 
 footer a:hover {
     color: #f4d41e;
+}
+
+address {
+    font-style: normal;
+}
+
+address p {
+    margin: 0px;
+}
+
+#footertitle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 /*----------------- MISC CLASS SELECTORS -----------------*/

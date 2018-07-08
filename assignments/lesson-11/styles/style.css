@@ -15,13 +15,13 @@ html,body {
 }
 
 body {
-	background:url('../img/congruent_pentagon.png');
+	background:url('../images/congruent_pentagon.png');
 }
 
 .container {
 	position:relative;
 	width:960px;
-	height:770px;
+	height:800px;
 	margin:auto;
 	background:rgba(255,255,255,0.5);
 	box-shadow: 1px 1px 20px rgba(0,0,0,0.45);
@@ -39,7 +39,7 @@ body {
 	width:250px;
 	height:100px;
 	float:left;
-	background:url('../img/logo.png');
+	background:url('../images/logo.png');
 	background-color:rgb(235, 253, 212);
 	opacity:1.0;
 }
@@ -87,7 +87,7 @@ body {
 	left:20px;
 	width:600px;
 	height:250px;
-	background:url('../img/head_image.jpg');
+	background:url('../images/head_image.jpg');
 	border-radius:5px;
 }
 
@@ -166,7 +166,7 @@ body {
 	float:left;
 	width:305px;
 	margin:2px;
-	height:300px;
+	height:320px;
 	padding:5px;
 	border-top:4px solid rgba(0,0,0,0.2);
 }
@@ -259,6 +259,7 @@ body {
 
 .footer {
 	position:relative;
+    margin-top: 20px;
 	height:30px;
 	background:rgba(0, 167, 255, 0.86);
 }
@@ -276,6 +277,13 @@ body {
 	text-decoration: none;
 	font-weight: normal;
 	color:inherit;
+}
+
+.footer nav a {
+    font-size: 12px;
+    float: right;
+    padding: 8px;
+    margin-right: 10px;
 }
 
 

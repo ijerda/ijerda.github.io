@@ -23,8 +23,6 @@ footer {
 
 /*----------------- HEADER -----------------*/
 
-
-
 header h3 {
     font-family: "Arial", "Helvetica", sans-serif;
     color: #fff;
@@ -148,7 +146,7 @@ article h3 {
 }
 
 
-.homepage1 h1 {
+h1 {
     font-family: 'Shadows Into Light', cursive;
     font-weight: normal;
     text-align: center;
@@ -163,12 +161,6 @@ article h3 {
     box-shadow: 2px 2px 2px #4c4c4c;
 }
 
-h1 {
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: normal;
-    text-align: center;
-    color: #497a55;
-}
 
 a {
     text-decoration: none;
@@ -176,7 +168,7 @@ a {
 }
 
 .boxes:hover {
-    box-shadow: 5px 5px 5px #4c4c4c; 
+    box-shadow: 5px 5px 5px #4c4c4c;
 }
 
 #topimg-index {
@@ -263,6 +255,33 @@ span {
     align-items: center;
 }
 
+.tours-boxes {
+    box-shadow: 5px 5px 5px #4c4c4c;
+}
+
+/*----------------- CONTACT -----------------*/
+
+.map {
+    display: flex;
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+#bushours {
+    font-weight: bold;
+}
+
+.hours p {
+    margin: 0px;
+}
+
+.hours {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 
 /*----------------- FOOTER -----------------*/
 
@@ -313,12 +332,11 @@ address p {
 
 form fieldset {
     margin: 1rem 0;
-    border: 3px solid #4c4c4c;
-    border-radius: 5px;
-    padding: .5rem 2%;
+    border: 3px solid #497a55;
+    border-radius: 6px;
     font-size: 35px;
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
 }
 
 form legend {
@@ -329,7 +347,7 @@ form legend {
 form input.submit {
     border: none;
     background-color: #023656;
-    color: white;
+    color: #fff;
     border-radius: .3rem;
     padding: .75rem 1.5rem;
     width: 95%;
@@ -338,6 +356,7 @@ form input.submit {
 
 form input.submit:hover {
     background-color: #023656;
+    box-shadow: 5px 5px 5px #4c4c4c;
 }
 
 form input.submit:active {
@@ -349,17 +368,14 @@ form legend h3 {
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 34px;
+    color: #497a55;
 }
 
-#zip,
-#maybe,
 #comment {
-    padding-bottom: 20px;
-}
-
-#ratingvalue {
-    color: #023656;
-    font-size: 34px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 350px;
 }
 
 
@@ -394,35 +410,13 @@ form label.sbs {
 }
 
 form label.top input:required {
-    border-left: #497a55 solid 6px;
+    border-left: red solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: #4c4c4c solid 6px;
-
+    border-left: #497a55 solid 6px;
 }
 
-.slider {
-    height: .2rem;
-}
-
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #497a55;
-    cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #ff890b;
-    cursor: pointer;
-}
 
 .scform {
     margin-right: auto;
@@ -432,9 +426,6 @@ form label.top input:required:valid {
     align-items: center;
 }
 
-#addinfo {
-    font-size: 33px;
-}
 
 /*-------------- THANKS PAGE ---------------*/
 
@@ -453,4 +444,49 @@ form label.top input:required:valid {
 .thanks p {
     font-size: 24px;
     text-align: center;
+}
+
+/*-------------- SERVICES TABLE ---------------*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    margin: auto;
+    align-self: center;
+    border-spacing: 2px;
+    text-align: left;
+    box-shadow: 5px 5px 5px #4c4c4c;
+    margin: 20px;
+    width: 100%;
+}
+
+table, th, td {
+    border: solid 2px #4c4c4c;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+table th {
+    font-size: 28px;
+    color: #fff;
+    background-color: #497a55;
+}
+
+
+td, th {
+    padding: 10px;
+}
+
+td {
+    font-size: 14px;
 }

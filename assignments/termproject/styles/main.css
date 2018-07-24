@@ -259,6 +259,50 @@ span {
     box-shadow: 5px 5px 5px #4c4c4c;
 }
 
+#link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/*------------------ ACCORDION ------------------*/
+
+.accordion {
+    background-color: #4c4c4c;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    outline: 2px solid #fff;
+    font-size: 15px;
+    transition: 0.6s;
+}
+
+.active, .accordion:hover {
+    background-color: #7a7979; 
+}
+
+.panel {
+    display: none;
+    background-color: white;
+
+}
+
+.panel table {
+    display: flex;
+    overflow: visible;
+    margin: 10px 0px;
+}
+
+.bikepics {
+    display: flex;
+    width: 100%;
+    max-width: 
+}
+
 /*----------------- CONTACT -----------------*/
 
 .map {

@@ -267,31 +267,61 @@ span {
 
 /*------------------ ACCORDION ------------------*/
 
-.accordion {
-    background-color: #4c4c4c;
-    color: #fff;
-    cursor: pointer;
-    padding: 18px;
+.accordion-container{
+  position: relative;
+        cursor: pointer;
+  max-width: 800px;
     width: 100%;
-    border: none;
-    text-align: center;
-    font-weight: bold;
-    outline: 2px solid #fff;
-    font-size: 15px;
-    transition: 0.6s;
+  height: auto;
+  margin: 10px auto;
 }
 
-.active, .accordion:hover {
+.set{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.set > a{
+    background-color: #4c4c4c;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  border-bottom: 1px solid #fff;
+  -webkit-transition:all 0.2s linear;
+  -moz-transition:all 0.2s linear;
+  transition:all 0.2s linear;
+}
+
+.set > a i{
+  float: right;
+  margin-top: 2px;
+}
+
+.set > a.active{
+  background-color:#497a55;
+  color: #fff;
+}
+
+.content{
+  background-color: #fff;
+  display:none;
+}
+
+.content p{
+  padding: 10px 15px;
+  margin: 0;
+  color: #4c4c4c;
+}
+
+.set a:hover {
     background-color: #7a7979; 
 }
 
-.panel {
-    display: none;
-    background-color: white;
-
-}
-
-.panel table {
+.set table {
     display: flex;
     overflow: visible;
     margin: 10px 0px;

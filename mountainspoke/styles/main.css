@@ -297,6 +297,25 @@ p a {
     background-color: #035477;
 }
 
+.overview h1 {
+    font-size: 44px;
+}
+
+.overview p {
+    text-align: center;
+
+}
+
+.overview video {
+    border: 2px solid #f3f4fd;
+    display: flex;
+}
+
+.resources h2 {
+    text-align: left;
+    padding: 0px;
+}
+
 /*------------------ ACCORDION ------------------*/
 
 .ui-accordion .ui-accordion-header {

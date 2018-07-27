@@ -155,8 +155,9 @@
         text-align: center;
     }
 
-    .odd, .even {
-                margin: 10px;
+    .odd,
+    .even {
+        margin: 10px;
     }
 
 

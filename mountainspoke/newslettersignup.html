@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thanks | The Mountain Spoke</title>
+    <meta name="description" content="Sign up for our newsletters today and receive amazing discounts, coupon codes, birthday promotions, and more!">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="top-header">
+            <a href="index.html"><img src="images/logo.jpg" alt="Site Logo - The Mountain Spoke" class="logo"></a>
+        </div>
+        <h3>Mountain Biking at its Finest</h3>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul class="navigation" id="mainmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/mountainreflect.jpg" alt="A wide shot of mountains reflecting in a lake" id="topimg-index">
+    <main>
+        <h1>Newsletter Sign Up</h1>
+        <p>Our newsletter provides weekly sales updates, promotional information, first-look access at new products and events, monthly coupon codes, Black Friday early-access, and more! Sign up today and start saving! If you include your birthday, you'll also receive special birthday sales prices and coupons! What's not to love? </p>
+        <form method="get" action="newslettersignupthanks.html" class="scform">
+            <fieldset>
+                <legend>
+                    <h3>Spokes Team Sign Up</h3>
+                </legend>
+                <label class="top">* Name: <input type="text" name="fullname" pattern="[[:alpha:]]{5}" placeholder="ex. John Smith" required></label>
+                <label class="top">Birth Date:<input type="date" name="completeDate"></label>
+                <label class="top">Phone: <input type="tel" name="phone" placeholder="1234567890"></label>
+                <label class="top">* Email: <input type="email" name="email" placeholder="someone@email.com" required></label>
+            </fieldset>
+
+            <input type="submit" value="Join the Spokes Team!" class="submit">
+            <input type="hidden" name="redirect" value="newslettersignupthanks.html">
+        </form>
+    </main>
+
+    <footer>
+
+        <address>
+            <p id="footertitle">The Mountain Spoke</p> 
+            <p>999.999.9999</p> 
+            <p>3950 Valley Commons Drive, Bozeman, Montana</p> 
+            <p><a href="https://goo.gl/maps/SHeF2vfUG9J2">Google Map</a></p>
+        </address>
+        <p>The Mountain Spoke &copy; 2018 | All Rights Reserved | Newsletter Sign Up | <a href="overview.html">Overview Video</a> | <a href="references.html">References</a> | <span id="currentdate"></span>
+        </p>
+        <div class="socialmedia">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+
+</body>
+
+</html>

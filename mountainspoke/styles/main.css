@@ -1,0 +1,593 @@
+/*----------------- BODY -----------------*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    font-size: 16px;
+    font-family: "Arial", "Helvetica", sans-serif;
+
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+
+}
+
+/*----------------- HEADER -----------------*/
+
+header h3 {
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #023656;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header img {
+    padding-top: 10px;
+    width: 200px;
+    height: auto;
+    display: flex;
+
+}
+
+/*----------------- HEADER NAV -----------------*/
+
+.hamburger {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    font-size: 25px;
+    color: #497a55;
+    box-shadow: 1px 1px 2px 1px #4c4c4c;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+    margin-top: -20px;
+    padding-bottom: 40px;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation.responsive {
+    position: relative;
+}
+
+.navigation.responsive li {
+    background-color: #023656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navigation.responsive li a {
+    text-align: center;
+    color: #fff;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
+
+.navigation.responsive li.active a {
+    color: #fff;
+    background-color: #035477;
+    font-weight: bold;
+}
+
+.navigation.responsive li a:hover {
+    color: #fff;
+    background-color: #035477;
+    font-weight: bold;
+}
+
+
+
+/*----------------- MAIN -----------------*/
+
+main {
+    padding: 25px;
+    background: #fff;
+    color: #4c4c4c;
+}
+
+main h2 {
+    color: #497a55;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: normal;
+}
+
+main h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: normal;
+}
+
+
+article h3 {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: normal;
+    text-align: center;
+    color: #497a55;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.img-article {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px #4c4c4c;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#calltoaction {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.boxes:hover {
+    box-shadow: 5px 5px 5px #4c4c4c;
+}
+
+#topimg-index {
+    margin-top: -55px;
+    width: 100%;
+    height: auto;
+}
+
+
+.boxes {
+    border: 3px solid #035477;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px #4c4c4c;
+    color: #4c4c4c;
+}
+
+
+.boxes p {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.rightcol {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.rightcol h3 {
+    margin-bottom: -7px;
+}
+
+.boxes .box .leftcol img {
+    width: 100%;
+}
+
+
+.boxes {
+    text-align: center;
+}
+
+
+span {
+    font-weight: normal;
+}
+
+#tours h1 {
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.tour-info p {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.cost {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.price {
+    margin: 0px;
+}
+
+.odd {
+    background-color: #497a55;
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+.even {
+    background-color: #035477;
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+p a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.loc-disc {
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.allevents {
+    border: 3px solid #035477;
+}
+
+
+.cyccont {
+    background-color: #035477;
+    padding: 20px;
+    color: #fff;
+}
+
+.otherevents {
+    padding: 20px;
+}
+
+.otherevents h1 {
+    font-size: 38px;
+    margin: 0px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.allevents h3 {
+    font-size: 34px;
+}
+
+#bottomevent {
+    border-top: 3px solid #035477;
+}
+
+#headerevents {
+    background-color: #035477;
+}
+
+/*------------------ ACCORDION ------------------*/
+
+.ui-accordion .ui-accordion-header {
+    display: flex;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 3px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #fff;
+    background: #4c4c4c;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #035477;
+    background: #035477;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.bikepics {
+    display: flex;
+    width: 100%;
+}
+
+#accordion h3 {
+    font-family: "Arial", "Helvetica", sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+#accordion table {
+    display: flex;
+    overflow: visible;
+    margin: 10px 0px;
+}
+
+
+
+
+/*----------------- CONTACT -----------------*/
+
+.map {
+    display: flex;
+    padding-top: 20px;
+    max-width: 500px;
+}
+
+#bushours {
+    font-weight: bold;
+}
+
+.hours p {
+    margin: 0px;
+}
+
+.hours {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+/*----------------- FOOTER -----------------*/
+
+footer {
+    clear: both;
+    font-family: Georgia, serif;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: .9rem;
+    background-color: #023656;
+    border-top: 3px solid #4c4c4c;
+
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer a:active {
+    font-weight: bold;
+    background-color: #035477;
+}
+
+footer a:hover {
+    font-weight: bold;
+    background-color: #035477;
+}
+
+address {
+    font-style: normal;
+}
+
+address p {
+    margin: 0px;
+}
+
+#footertitle {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*----------------- FORM -----------------*/
+
+form fieldset {
+    margin: 1rem 0;
+    border: 3px solid #497a55;
+    border-radius: 6px;
+    font-size: 35px;
+    width: 100%;
+    max-width: 300px;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form input.submit {
+    border: none;
+    background-color: #023656;
+    color: #fff;
+    border-radius: .3rem;
+    padding: .75rem 1.5rem;
+    width: 95%;
+    max-width: 20rem;
+}
+
+form input.submit:hover {
+    background-color: #023656;
+    box-shadow: 5px 5px 5px #4c4c4c;
+}
+
+form input.submit:active {
+    background-color: #035477;
+    color: #4c4c4c;
+}
+
+form legend h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 34px;
+    color: #497a55;
+}
+
+#comment {
+    padding-bottom: 30px;
+    font-size: 14px;
+    width: 100%;
+    max-width: 350px;
+}
+
+
+form label.top,
+form div {
+    display: block;
+    color: #4c4c4c;
+    font-size: 18px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 18px;
+    border: solid 1px #4c4c4c;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #4c4c4c;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #4c4c4c;
+    font-size: 15px;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #497a55 solid 6px;
+}
+
+
+.scform {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*-------------- THANKS PAGE ---------------*/
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thanks h1 {
+    color: #497a55;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.thanks p {
+    font-size: 24px;
+    text-align: center;
+}
+
+/*-------------- SERVICES TABLE ---------------*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    margin: auto;
+    align-self: center;
+    border-spacing: 2px;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+    max-height: 100%;
+}
+
+table,
+th,
+td {
+    border: solid 2px #4c4c4c;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #e2e2e2;
+}
+
+table th {
+    font-size: 28px;
+    color: #fff;
+    background-color: #497a55;
+}
+
+
+td,
+th {
+    padding: 10px;
+}
+
+td {
+    font-size: 14px;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tours | The Mountain Spoke</title>
+    <meta name="description" content="The tour page for The Mountain Spoke includes the various mountain biking tours that our company offers. Click here to see what we offer!">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="top-header">
+            <a href="index.html"><img src="images/logo.jpg" alt="Site Logo - The Mountain Spoke" class="logo"></a>
+        </div>
+        <h3>Mountain Biking at its Finest</h3>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul class="navigation" id="mainmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/valley.jpg" alt="A wide shot of mountains and a valley" id="topimg-index">
+    <main id="tours">
+        <h1>Tours</h1>
+        <p>We give tours to people from all over the world when they come to visit Bozeman! We welcome all types of riders - beginners, intermediate, and advanced - and will even provide lessons at our in-store location. Below are some of our most popular tours.</p>
+        
+        <p>We only provide tours Late April through Early September, with the occasional year of extended good/warm weather. If you're unsure of whether or not we'll be touring when you visit, feel free to contact us via our <a href="contact.html">contact page</a>, by calling us at 999.999.999 or by visiting us in-store. Enjoy the ride!</p>
+        
+        <div class="tours-boxes">
+            <article class="odd">
+                <img src="images/biker.jpg" alt="Mountain biker looking at the trail" class="img-article">
+                <h3>Mystic Lake Tour</h3>
+                <p>
+                    The Mystic Lake trail is an easy-access trail that follows Bozeman Creek along Sourdough Canyon Trail. This trail provides a more accessible route to Mystic Lake than the more northerly Mystic Lake route that uses New World Gulch Trail #50. The first 10-miles is a steady climb, so be prepared, but the great thing about that is it means that the last 10 miles are all downhill. Sourdough Creek provides the City of Bozeman with 40% of their drinking water, so make sure you respect all signage throughout the tour and enjoy the scenic views!
+                </p>
+                <div class="tour-info">
+                    <p>Length: <span id="length0"></span></p>
+                    <p>Singletrack: <span id="singletrack0"></span></p>
+                    <p>Average Grade: <span id="avgGrade0"></span></p>
+                    <p>Ascent: <span id="ascent0"></span></p>
+                    <p>High: <span id="height0"></span></p>
+                    <p>Skill Level: <span id="skilllev0"></span></p>
+                </div>
+                <div class="pricing">
+                    <p class="cost">Price:</p>
+                    <p class="price">Half-Day: $149.00 USD</p>
+                    <p class="price">Full-Day: $189.00 USD</p>
+                </div>
+                <p class="loc-disc">Tour start locations may differ depending on recent weather. Refer to your confirmation email to ensure you meet at the proper trailhead. Confirmation email is sent 24-hours in advance.</p>
+            </article>
+
+            <article class="even">
+                <img src="images/handlebars.jpg" alt="Mountain bikers on a trail" class="img-article">
+                <h3>South Cottonwood Creek Trail</h3>
+                <p>
+                    The South Cottonwood Creek Trail is an intermediate, technical trail in which you will cross the creek (riding or carrying across the log bridge, depending on the height of the water and your preference) 4 times. It is a mostly-wooded trail, which is ideal for hot summer days. The views aren't as amazing as some of our other tours, but it is perfect for someone wanting to learn how to ride without being distracted by the many views of mountains that our other tours offer. We recommend this trail to children 8+ years, as well as anyone new to the sport of mountain biking.
+                </p>
+                <div class="tour-info">
+                    <p>Length: <span id="length1"></span></p>
+                    <p>Singletrack: <span id="singletrack1"></span></p>
+                    <p>Average Grade: <span id="avgGrade1"></span></p>
+                    <p>Ascent: <span id="ascent1"></span></p>
+                    <p>High: <span id="height1"></span></p>
+                    <p>Skill Level: <span id="skilllev1"></span></p>
+                </div>
+                <div class="pricing">
+                    <p class="cost">Price:</p>
+                    <p class="price">Half-Day: $149.00 USD</p>
+                    <p class="price">Full-Day (multiple rounds): $189.00 USD</p>
+                </div>
+                <p class="loc-disc">Tour start locations may differ depending on recent weather. Refer to your confirmation email to ensure you meet at the proper trailhead. Confirmation email is sent 24-hours in advance.</p>
+            </article>
+
+            <article class="odd">
+                <img src="images/sunsetride.jpg" alt="Mountain biking group on a trail at sunset" class="img-article">
+                <h3>Bangtail Divide Tour</h3>
+                <p>
+                    The Bangtail Divide Trail (BDT) is defined by most as a beautiful, lengthy ride featuring views of many mountain ranges. It was built in 2003 and quickly became the go-to trail for the locals who wanted a long ride but didn't want a long drive to the trail. BDT is close to town, making access for tours perfect for anyone who wants to get going quickly. BDT offers easy access to a ridgeline traverse with incredible views which include multiple mountain ranges and fields of wildflowers. This trail includes singletrack, switchbacks, ridgetop, and flowing downhill.
+                </p>
+                <div class="tour-info">
+                    <p>Length: <span id="length2"></span></p>
+                    <p>Singletrack: <span id="singletrack2"></span></p>
+                    <p>Average Grade: <span id="avgGrade2"></span></p>
+                    <p>Ascent: <span id="ascent2"></span></p>
+                    <p>High: <span id="height2"></span></p>
+                    <p>Skill Level: <span id="skilllev2"></span></p>
+                </div>
+                <div class="pricing">
+                    <p class="cost">Price:</p>
+                    <p class="price">Half-Day: $149.00 USD</p>
+                    <p class="price">Full-Day: $189.00 USD</p>
+                </div>
+                <p class="loc-disc">Tour start locations may differ depending on recent weather. Refer to your confirmation email to ensure you meet at the proper trailhead. Confirmation email is sent 24-hours in advance.</p>
+            </article>
+
+            <article class="even">
+                <img src="images/treeride.jpg" alt="Mountain bikers on a trail in the trees" class="img-article">
+                <h3>Bridger Foothills Trail #534</h3>
+                <p>
+                    The Bridger Foothills Trail #534 (or known as 534 among residents) is widely popular for its difficult singletrack course. This is not a trail to be taken lightly, and is only recommended for skilled riders. For those who do venture out for the full day package, expect to be without cell service for much of the ride, but to see incredible views of the mountain ranges. This has a steady and intense climb, and a powerful, fast decline. You'll enjoy scenic views and incredible sensations as you climb this mountain!
+                </p>
+                <div class="tour-info">
+                    <p>Length: <span id="length3"></span></p>
+                    <p>Singletrack: <span id="singletrack3"></span></p>
+                    <p>Average Grade: <span id="avgGrade3"></span></p>
+                    <p>Ascent: <span id="ascent3"></span></p>
+                    <p>High: <span id="height3"></span></p>
+                    <p>Skill Level: <span id="skilllev3"></span></p>
+                </div>
+                <div class="pricing">
+                    <p class="cost">Price:</p>
+                    <p class="price">Half-Day: $169.00 USD</p>
+                    <p class="price">Full-Day: $199.00 USD</p>
+                </div>
+                <p class="loc-disc">Tour start locations may differ depending on recent weather. Refer to your confirmation email to ensure you meet at the proper trailhead. Confirmation email is sent 24-hours in advance.</p>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <address>
+            <p id="footertitle">The Mountain Spoke</p> 
+            <p>999.999.9999</p> 
+            <p>3950 Valley Commons Drive, Bozeman, Montana</p> 
+            <p><a href="https://goo.gl/maps/SHeF2vfUG9J2">Google Map</a></p>
+        </address>
+        <p>&copy;2018 | All Rights Reserved | Tours | <a href="overview.html">Overview Video</a> | <a href="references.html">References</a> | The Mountain Spoke | <span id="currentdate"></span>
+        </p>
+
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/wayfind.js"></script>
+    <script src="scripts/tours.js"></script>
+</body>
+
+</html>

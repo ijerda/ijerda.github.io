@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services | The Mountain Spoke</title>
+    <meta name="description" content="The Mountain Spoke is the best business for all of your bike service/repair needs. This page shows what we offer and our current prices.">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="top-header">
+            <a href="index.html"><img src="images/logo.jpg" alt="Site Logo - The Mountain Spoke" class="logo"></a>
+        </div>
+        <h3>Mountain Biking at its Finest</h3>
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    </header>
+
+    <nav>
+        <ul class="navigation" id="mainmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/snowysunset.jpg" alt="A wide shot of mountains and a valley" id="topimg-index">
+    <main>
+
+        <h1>Services</h1>
+        <p>Come into The Mountain Spoke today for any and all of your mountain bike service needs! We're guaranteed to be the best option around with the highest quality work at the best prices. </p>
+        <div class="services">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan=2>Service Packages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Minor Tune-Up:</td>
+                        <td><span id="minTuneUp"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Major Tune-Up:</td>
+                        <td><span id="majTuneUp"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Drivetrain Overhaul:</td>
+                        <td><span id="driveTrnHaul"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Brake Overhaul:</td>
+                        <td><span id="brakeHaul"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Complete Bike Overhaul:</td>
+                        <td><span id="compHaul"></span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Detail Bike:</td>
+                        <td><span id="detail"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan=2>Wheels</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Flat Tire Repair:</td>
+                        <td><span id="flatRep"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Replace Tire(s):</td>
+                        <td><span id="repTire"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Replace Broken Spoke(s):</td>
+                        <td><span id="repSpoke"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Install 1 Wheel:</td>
+                        <td><span id="installOne"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Install Both Wheels:</td>
+                        <td><span id="installBoth"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan=2>Brakes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Replace Brake Cable:</td>
+                        <td><span id="repBCable"></span></td>
+
+                    </tr>
+                    <tr>
+                        <td>Replace Brake Cables (3+):</td>
+                        <td><span id="repCablePlus"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Minor Brake Adjustments (Cable):</td>
+                        <td><span id="minBrakeAdjCab"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Minor Brake Adjustments (Disc):</td>
+                        <td><span id="minBrakeAdjDisc"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Major Brake Adjustments (Cable):</td>
+                        <td><span id="majBrakeAdjCab"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Major Brake Adjustments (Disc):</td>
+                        <td><span id="majBrakeAdjDisc"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Bleed Hydraulic Brakes:</td>
+                        <td><span id="bleedHydBrake"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Install and Adjust New Brakes (Cable):</td>
+                        <td><span id="installAdjCab"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Install and Adjust New Brakes (Disc):</td>
+                        <td><span id="installAdjDisc"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan=2>Drivetrain</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Install Chain:</td>
+                        <td><span id="installChain"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Clean and Lube:</td>
+                        <td><span id="cleanLub"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Complete Drivetrain Service:</td>
+                        <td><span id="compDriveServ"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Install Pedals:</td>
+                        <td><span id="installPed"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Overhaul Pedal Bearings:</td>
+                        <td><span id="overhaulPedBear"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>For more information or questions, contact us via our <a href="contact.html">contact form</a>, call us at 999.999.9999, or visit us in-store.</p>
+
+    </main>
+
+    <footer>
+
+        <address>
+            <p id="footertitle">The Mountain Spoke</p> 
+            <p>999.999.9999</p> 
+            <p>3950 Valley Commons Drive, Bozeman, Montana</p> 
+            <p><a href="https://goo.gl/maps/SHeF2vfUG9J2">Google Map</a></p>
+        </address>
+        <p>&copy;2018 | All Rights Reserved | Services | <a href="overview.html">Overview Video</a> | <a href="references.html">References</a> | The Mountain Spoke | <span id="currentdate"></span>
+        </p>
+
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/wayfind.js"></script>
+    <script src="scripts/services.js"></script>
+
+</body>
+
+</html>

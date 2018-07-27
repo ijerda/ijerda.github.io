@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Services | The Mountain Spoker</title>
-    <meta name="description" content="The Mountain Spoke is your ">
+    <title>Services | The Mountain Spoke</title>
+    <meta name="description" content="The Mountain Spoke is the best business for all of your bike service/repair needs. This page shows what we offer and our current prices.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -15,7 +15,6 @@
 
 
 <body>
-    <script src="scripts/hamburger.js"></script>
     <header>
         <div class="top-header">
             <a href="index.html"><img src="images/logo.jpg" alt="Site Logo - The Mountain Spoke" class="logo"></a>
@@ -49,29 +48,28 @@
                 <tbody>
                     <tr>
                         <td>Minor Tune-Up:</td>
-                        <td>$51.99 USD</td>
+                        <td><span id="minTuneUp"></span></td>
                     </tr>
                     <tr>
                         <td>Major Tune-Up:</td>
-                        <td>$101.99 USD</td>
+                        <td><span id="majTuneUp"></span></td>
                     </tr>
                     <tr>
                         <td>Drivetrain Overhaul:</td>
-                        <td>$61.99 USD</td>
+                        <td><span id="driveTrnHaul"></span></td>
                     </tr>
                     <tr>
                         <td>Brake Overhaul:</td>
-                        <td>$55.99 USD</td>
+                        <td><span id="brakeHaul"></span></td>
                     </tr>
                     <tr>
                         <td>Complete Bike Overhaul:</td>
-                        <td>$151.99 USD <br />
-                (subject to change depending on bike)</td>
+                        <td><span id="compHaul"></span></td>
                     </tr>
 
                     <tr>
                         <td>Detail Bike:</td>
-                        <td>$31.99 USD</td>
+                        <td><span id="detail"></span></td>
                     </tr>
                 </tbody>
             </table>
@@ -85,24 +83,23 @@
                 <tbody>
                     <tr>
                         <td>Flat Tire Repair:</td>
-                        <td>$21.99 USD</td>
+                        <td><span id="flatRep"></span></td>
                     </tr>
                     <tr>
                         <td>Replace Tire(s):</td>
-                        <td>$31.99 USD</td>
+                        <td><span id="repTire"></span></td>
                     </tr>
                     <tr>
                         <td>Replace Broken Spoke(s):</td>
-                        <td>$11.99 USD/spoke <br />
-                            (max of $41.99)</td>
+                        <td><span id="repSpoke"></span></td>
                     </tr>
                     <tr>
                         <td>Install 1 Wheel:</td>
-                        <td>$46.99 USD</td>
+                        <td><span id="installOne"></span></td>
                     </tr>
                     <tr>
                         <td>Install Both Wheels:</td>
-                        <td>$75.99 USD</td>
+                        <td><span id="installBoth"></span></td>
                     </tr>
                 </tbody>
             </table>
@@ -116,40 +113,40 @@
                 <tbody>
                     <tr>
                         <td>Replace Brake Cable:</td>
-                        <td>$25.99 USD</td>
+                        <td><span id="repBCable"></span></td>
 
                     </tr>
                     <tr>
                         <td>Replace Brake Cables (3+):</td>
-                        <td>$65.99 USD</td>
+                        <td><span id="repCablePlus"></span></td>
                     </tr>
                     <tr>
                         <td>Minor Brake Adjustments (Cable):</td>
-                        <td>$31.99 USD</td>
+                        <td><span id="minBrakeAdjCab"></span></td>
                     </tr>
                     <tr>
                         <td>Minor Brake Adjustments (Disc):</td>
-                        <td>$41.99 USD</td>
+                        <td><span id="minBrakeAdjDisc"></span></td>
                     </tr>
                     <tr>
                         <td>Major Brake Adjustments (Cable):</td>
-                        <td>$41.99 USD</td>
+                        <td><span id="majBrakeAdjCab"></span></td>
                     </tr>
                     <tr>
                         <td>Major Brake Adjustments (Disc):</td>
-                        <td>$51.99 USD</td>
+                        <td><span id="majBrakeAdjDisc"></span></td>
                     </tr>
                     <tr>
                         <td>Bleed Hydraulic Brakes:</td>
-                        <td>$46.99 USD</td>
+                        <td><span id="bleedHydBrake"></span></td>
                     </tr>
                     <tr>
                         <td>Install and Adjust New Brakes (Cable):</td>
-                        <td>$61.99 USD</td>
+                        <td><span id="installAdjCab"></span></td>
                     </tr>
                     <tr>
                         <td>Install and Adjust New Brakes (Disc):</td>
-                        <td>$71.99 USD</td>
+                        <td><span id="installAdjDisc"></span></td>
                     </tr>
                 </tbody>
             </table>
@@ -163,27 +160,29 @@
                 <tbody>
                     <tr>
                         <td>Install Chain:</td>
-                        <td>$14.99 USD</td>
+                        <td><span id="installChain"></span></td>
                     </tr>
                     <tr>
                         <td>Clean and Lube:</td>
-                        <td>$8.99 USD</td>
+                        <td><span id="cleanLub"></span></td>
                     </tr>
                     <tr>
                         <td>Complete Drivetrain Service:</td>
-                        <td>$41.99 USD</td>
+                        <td><span id="compDriveServ"></span></td>
                     </tr>
                     <tr>
                         <td>Install Pedals:</td>
-                        <td>$18.99 USD</td>
+                        <td><span id="installPed"></span></td>
                     </tr>
                     <tr>
                         <td>Overhaul Pedal Bearings:</td>
-                        <td>$25.99 USD</td>
+                        <td><span id="overhaulPedBear"></span></td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        
+                <p>For more information or questions, contact us via our <a href="contact.html">contact form</a>, call us at 999.999.9999, or visit us in-store.</p>
 
     </main>
 
@@ -195,7 +194,7 @@
             <p>3950 Valley Commons Drive, Bozeman, Montana</p> 
             <p><a href="https://goo.gl/maps/SHeF2vfUG9J2">Google Map</a></p>
         </address>
-        <p>&copy;2018 | All Rights Reserved | Thanks | <a href="references.html">References</a> | The Mountain Spoke | <span id="currentdate"></span>
+        <p>&copy;2018 | All Rights Reserved | Thanks | <a href="overview.html">Overview Video</a> | <a href="references.html">References</a> | The Mountain Spoke | <span id="currentdate"></span>
         </p>
 
     </footer>
@@ -203,6 +202,7 @@
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/wayfind.js"></script>
+    <script src="scripts/services.js"></script>
 
 </body>
 

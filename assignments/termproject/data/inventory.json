@@ -1,0 +1,39 @@
+{
+    "services": [
+        {
+            "minTuneUp": "$51.99 USD",
+            "majTuneUp": "$101.99 USD",
+            "driveTrnHaul": "$61.99 USD",
+            "brakeHaul": "$55.99 USD",
+            "compHaul": "$151.99+ USD",
+            "detail": "$31.99 USD"
+  },
+        {
+            "flatRep": "$21.99 USD",
+            "repTire": "$31.99 USD",
+            "repSpoke": "$11.99 USD/Spoke (max of $41.99)",
+            "installOne": "$46.99 USD",
+            "installBoth": "$75.99 USD"
+  },
+
+        {
+            "repBCable": "$25.99 USD",
+            "repCablePlus": "$65.99 USD",
+            "minBrakeAdjCab": "$31.99 USD",
+            "minBrakeAdjDisc": "$41.99 USD",
+            "majBrakeAdjCab": "$41.99 USD",
+            "majBrakeAdjDisc": "$51.99 USD",
+            "bleedHydBrake": "$46.99 USD",
+            "installAdjCab": "$61.99 USD",
+            "installAdjDisc": "$71.99 USD"
+  },
+
+        {
+            "installChain": "$14.99 USD",
+            "cleanLub": "$8.99 USD",
+            "compDriveServ": "$41.99 USD",
+            "installPed": "$18.99 USD",
+            "overhaulPedBear": "$25.99 USD"
+  }
+ ]
+}

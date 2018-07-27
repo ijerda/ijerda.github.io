@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Events | The Mountain Spoker</title>
-    <meta name="description" content="The Mountain Spoke is your ">
+    <title>Events | The Mountain Spoke</title>
+    <meta name="description" content="The Mountain Spoke is your go-to business for the best mountain biking events around. This page goes in-depth with what events we're hosting.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -15,7 +15,6 @@
 
 
 <body>
-    <script src="scripts/hamburger.js"></script>
     <header>
         <div class="top-header">
             <a href="index.html"><img src="images/logo.jpg" alt="Site Logo - The Mountain Spoke" class="logo"></a>
@@ -38,8 +37,11 @@
     <main>
 
         <h1>Events</h1>
-        <article>
-            <img src="images/lake.jpg" alt="A beautiful lake with mountains behind it" id="img-article">
+        <p>Bozeman, MT offers plenty of exciting opportunities to join in on mountain biking fun for competition/sport. Here are a list of events that will be available to racers with the proper qualifications in the next calendar year. If you have any questions, feel free to contact us via our contact page, by calling us at 999.999.999 or by visiting us in-store. Enjoy the ride!</p>
+        <div class="allevents">
+            <div class="otherevents" id="headerevents"><h1>FEATURED:</h1></div>
+            <article class="cyccont">
+            <img src="images/lake.jpg" alt="A beautiful lake with mountains behind it" class="img-article">
             <h3>Cycle the Continental Divide</h3>
             <p>The Great Divide is an off-pavement mountain biking route which cross-crosses the Continental Divide in southern Canada and the United States. This route is extremely remote, giving spectacular scenery and terrain, with almost the entire route being mostly dirt-road and mountain-pass riding. It has over 200,000 feet of elevation gain and is 2,100 miles of beauty. Come enjoy this thrilling, long-distance ride with fellow mountain bikers as we crown the victor of the 'Cycle the Continental Divide' once more in 2019!</p>
 
@@ -62,8 +64,8 @@
                 </li>
             </ul>
         </article>
-        <article>
-            <img src="images/mountainandlake.jpg" alt="A beautiful lake with mountains behind it" id="img-article">
+        <article class="otherevents">
+            <img src="images/mountainandlake.jpg" alt="A beautiful lake with mountains behind it" class="img-article">
             <h3>Junior Cycle the Continental Divide</h3>
             <p>The Great Divide is an off-pavement mountain biking route which cross-crosses the Continental Divide in southern Canada and the United States. This route is extremely remote, giving spectacular scenery and terrain, with almost the entire route being mostly dirt-road and mountain-pass riding. It has over 200,000 feet of elevation gain and is 2,100 miles of beauty. Come enjoy this thrilling, long-distance ride with fellow mountain bikers as we crown the victor of the 'Cycle the Continental Divide' once more in 2019!</p>
 
@@ -93,8 +95,8 @@
             </ul>
         </article>
         
-        <article>
-            <img src="images/lakereflect.jpg" alt="A beautiful lake with mountains behind it" id="img-article">
+        <article class="otherevents" id="bottomevent">
+            <img src="images/lakereflect.jpg" alt="A beautiful lake with mountains behind it" class="img-article">
             <h3>Around Pine Creek Lake</h3>
             <p>Pine Creek Lake is a beautiful lake on the Absaroka Mountains. This trail is difficult, as it's mostly meant for hiking, but everyone who qualifies enjoys the challenge. We recommend only those who can handle difficult/challenging/advanced trails. This race is not for the faint-of-heart, but it is one of the greatest opportunities to prove you're the best mountain biker in America.</p>
 
@@ -117,8 +119,9 @@
                 </li>
             </ul>
         </article>
+                    </div>
         
-        <form method="get" action="thanks.html" class="scform">
+        <form method="get" action="eventsthanks.html" class="scform">
             <fieldset>
                 <legend>
                     <h3>Rider Information</h3>
@@ -141,9 +144,8 @@
             </fieldset>
 
             <input type="submit" value="Submit Application" class="submit">
-            <input type="hidden" name="redirect" value="/thanks.html">
+            <input type="hidden" name="redirect" value="eventsthanks.html">
         </form>
-
     </main>
 
     <footer>
@@ -154,7 +156,7 @@
             <p>3950 Valley Commons Drive, Bozeman, Montana</p> 
             <p><a href="https://goo.gl/maps/SHeF2vfUG9J2">Google Map</a></p>
         </address>
-        <p>&copy;2018 | All Rights Reserved | Thanks | <a href="references.html">References</a> | The Mountain Spoke | <span id="currentdate"></span>
+        <p>&copy;2018 | All Rights Reserved | Thanks | <a href="overview.html">Overview Video</a> | <a href="references.html">References</a> | The Mountain Spoke | <span id="currentdate"></span>
         </p>
 
     </footer>

@@ -160,22 +160,21 @@ a {
     font-size: 24px;
 }
 
-.calltoaction button {
+.calltoaction input {
     border: none;
     background-color: #023656;
     color: #fff;
     border-radius: .3rem;
     padding: .75rem 1.5rem;
-    width: 95%;
-    max-width: 20rem;
+    cursor: pointer;
 }
 
-.calltoaction button:hover {
+.calltoaction input:hover {
     background-color: #023656;
     box-shadow: 5px 5px 5px #4c4c4c;
 }
 
-.calltoaction button:active {
+.calltoaction input:active {
     background-color: #035477;
     color: #4c4c4c;
 }
@@ -471,9 +470,9 @@ address p {
 }
 
 .fa {
-padding: 10px;
-  width: 50px;
-  margin: 5px 2px;
+    padding: 10px;
+    width: 50px;
+    margin: 5px 2px;
 }
 
 .fa:hover {
